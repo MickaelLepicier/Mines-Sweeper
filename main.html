@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mines Sweeper</title>
+        <!-- put a tag -->
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body onload="initGame()">
+        <h1 class="mainHeader">Mines Sweeper</h1>
+        <div class="board">
+            <table id="board-table"></table>
+        </div>
+        <div class="lives"></div>
+        <div class="win-lose"></div>
+        <button onClick="initGame()">restart game</button>
+        <button onClick="revealBoard()">reveal board</button>
+        <div id="logs"></div>
+
+        <script src="js/main.js"></script>
+        <!-- <script src="js/mines.js"></script> -->
+    </body>
+</html>

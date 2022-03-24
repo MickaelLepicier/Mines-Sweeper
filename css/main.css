@@ -1,0 +1,62 @@
+body {
+}
+
+button {
+    margin: 20px 10px;
+}
+
+.mainHeader {
+    /* put in center and the rest */
+}
+
+#board-table {
+    background-color: #ccc;
+    border-spacing: 0;
+}
+
+#board-table > tbody > tr > td {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#board-table > tbody > tr > td.covered {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+    cursor: pointer;
+}
+
+#board-table > tbody > tr > td.blue {
+    color: blue;
+}
+
+#board-table > tbody > tr > td.green {
+    color: green;
+}
+
+#board-table > tbody > tr > td.red {
+    color: red;
+}
+
+#logs {
+    background-color: #223;
+    color: #eee;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: monospace;
+    padding: 10px;
+}
+
+.lives {
+}
+
+.win-lose {
+}
+/* hover mouse */
